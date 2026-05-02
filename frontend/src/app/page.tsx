@@ -115,9 +115,9 @@ export default function Home() {
           <AnimatePresence>
             {shortUrl && (
               <motion.div
-                initial={{ opacity: 0, height: 0, mt: 0 }}
-                animate={{ opacity: 1, height: "auto", mt: 32 }}
-                exit={{ opacity: 0, height: 0, mt: 0 }}
+                initial={{ opacity: 0, height: 0, marginTop: 0 }}
+                animate={{ opacity: 1, height: "auto", marginTop: 32 }}
+                exit={{ opacity: 0, height: 0, marginTop: 0 }}
                 className="overflow-hidden"
               >
                 <div className="bg-sky-50 border border-sky-100 rounded-3xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
